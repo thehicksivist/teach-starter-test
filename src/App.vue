@@ -1,28 +1,21 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <WeatherWidget msg="How bout that weather?"/>
-  </div>
+  <WeatherWidget msg="How 'bout that weather?"/>
 </template>
 
 <script>
-import WeatherWidget from './components/WeatherWidget.vue'
+  import WeatherWidget from './components/WeatherWidget.vue'
 
-export default {
-  name: 'App',
-  components: {
-    WeatherWidget
+  export default {
+    name: 'App',
+    components: {
+      WeatherWidget
+    }
   }
-}
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+  }
 </style>

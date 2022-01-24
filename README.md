@@ -22,3 +22,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Using the app
+
+Use the drop-down selection box to see the current weather in the available cities!
